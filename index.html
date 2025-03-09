@@ -1,0 +1,53 @@
+<!--  made by vijay Nautiyal  -->
+
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Age Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+    <!--Import Styles-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="main-section">
+
+    <!--Input Birthday Content Section -->
+    <div class="content-section" id="content_div">
+        <p class="txt-date" id="current_date"></p>
+        <p class="txt">
+            Enter your birthday in format - <span>DD/MM/YYYY</span>
+        </p>
+        <input
+                class="input-field"
+                id="birthday"
+                type="text"
+                placeholder="DD/MM/YYYY"                
+        >
+        <button class="btn" id="calculate_age">Calculate Age</button>
+    </div>
+
+    <!--Birthday Count Section -->
+    <div class="count-age" id="calculate_age_div" style="display: none">
+        <div class="content-age-view">
+            <p class="txt-birthday" id="cal_age"></p>
+        </div>
+    </div>
+
+    <!--Footer Section -->
+    <div class="footer-section">
+        <p class="footer-text">Made by Vijay Nautiyal </p>
+    </div>
+
+</section>
+
+<!--Import Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
